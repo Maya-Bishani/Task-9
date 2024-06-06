@@ -1,0 +1,57 @@
+.container{
+    background-color: rgb(5, 21, 49);
+    padding: 20px 0;    
+}
+
+.butn-increas{
+    padding: 10px;
+    background-color: #59ab6e;
+    color: white;
+    margin: 10px;
+    border: none;
+    
+}
+.butn-decreas{
+    padding: 10px;
+    background-color: red;
+    color: white;
+    margin: 10px;
+    border: none;
+}
+.count-div{
+    width: 400px;
+    border: 1px solid #59ab6e;
+    text-align: center;
+   
+}
+.popup1{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-Color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 650px;
+    background-color: #59ab6e;
+    color: white;
+}
+.popup2{
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-Color: #59ab6e;
+    padding: 20px;
+    border-radius: 5px;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.btn-close{
+    padding: 10px ;
+    background-color: pink;
+    border: none;
+}
